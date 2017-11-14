@@ -1,2 +1,3 @@
-# kiss-events
-Simple events
+# Kiss Events
+
+Simple events library.

@@ -1,0 +1,33 @@
+{
+  "name": "kiss-events",
+  "version": "1.0.0",
+  "description": "Simple events",
+  "main": "events.js",
+  "scripts": {
+    "build": "./node_modules/.bin/webpack",
+    "test": "jasmine"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/scottmboring/kiss-events.git"
+  },
+  "keywords": [
+    "Event",
+    "Property",
+    "changes",
+    "Signals"
+  ],
+  "author": "Scott Boring",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/scottmboring/kiss-events/issues"
+  },
+  "homepage": "https://github.com/scottmboring/kiss-events#readme",
+  "devDependencies": {
+    "babel-core": "^6.26.0",
+    "babel-preset-env": "^1.6.1",
+    "babel-register": "^6.26.0",
+    "uglifyjs-webpack-plugin": "^1.0.1",
+    "webpack": "^3.8.1"
+  }
+}
