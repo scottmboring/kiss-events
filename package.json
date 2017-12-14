@@ -1,8 +1,8 @@
 {
   "name": "kiss-events",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Simple events",
-  "main": "events.js",
+  "main": "dist/Events.min.js",
   "scripts": {
     "build": "./node_modules/.bin/webpack",
     "test": "jasmine"
