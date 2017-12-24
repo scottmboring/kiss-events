@@ -28,6 +28,6 @@ A simple events library.
     // Setup one or more listeners
     name.on(name => console.log(name));
     
-    // Trigger an error message
+    // Trigger a change
     name.value = "Scott B"
 ```
