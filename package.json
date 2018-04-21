@@ -1,6 +1,6 @@
 {
   "name": "kiss-events",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Events as a first class citizen.",
   "main": "dist/kiss-events.js",
   "scripts": {
