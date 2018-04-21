@@ -1,11 +1,20 @@
+let path = require('path');
 const UglifyJSPlugin = require('uglifyjs-webpack-plugin');
 
 module.exports = {
-    entry: './src/Events.js',
+    entry: {
+        "kiss-events": './src/main/javascript/index.js',
+        "kiss-events.min": './src/main/javascript/index.js'
+    },
     output: {
-        filename: './dist/Events.min.js'
+        path: path.resolve(__dirname, 'dist'),
+        filename: '[name].js',
+        library: 'kissEvents',
+        libraryTarget: 'umd'
     },
     plugins: [
-        new UglifyJSPlugin()
+        new UglifyJSPlugin({
+            test: /\.min\.js$/
+        })
     ]
 };
